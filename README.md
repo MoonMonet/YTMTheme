@@ -25,7 +25,7 @@ MoonMonet YTM brings a purplish accent look to your music experience.
 ### Stylus (Browser)
 
 1. Install the [Stylus extension](https://add0n.com/stylus.html) for your browser.
-2. Click [this link to install](https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/moonmonet.css).
+2. Click [this link to install](https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/moonmonet.user.css).
 3. Confirm the installation in Stylus.
 
 ### Desktop App (th-ch)
