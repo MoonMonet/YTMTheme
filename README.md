@@ -6,7 +6,7 @@
 <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://raw.githubusercontent.com/ziadOUA/m3-Markdown-Badges/master/badges/LicenceGPLv3/licencegplv31.svg" alt="License: GPL v3" /></a>
 <img src="https://raw.githubusercontent.com/ziadOUA/m3-Markdown-Badges/master/badges/CSS/css3.svg" alt="CSS" />
 
-![MoonMonet YTM Banner](.github/_assets/theme.png)
+![MoonMonet YTM Banner](.github/_assets/new.png)
 
 </div>
 
