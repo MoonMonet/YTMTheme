@@ -192,13 +192,33 @@
     border-bottom: 1px solid var(--md-sys-color-surface-variant);
     box-shadow: none !important;
   }
+  
+  .left-content.ytmusic-nav-bar {
+    display: flex !important;
+    align-items: center !important;
+    flex-shrink: 0 !important;
+  }
 
   ytmusic-logo.ytmusic-nav-bar {
-    display: block !important;
     width: 160px !important;
+    min-width: 160px !important;
     height: 32px !important;
-    content: url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/.github/_assets/full-logo.svg") !important;
+    display: block !important;
     padding-left: 16px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  ytmusic-logo.ytmusic-nav-bar a {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/.github/_assets/full-logo.svg") no-repeat center !important;
+    background-size: contain !important;
+  }
+  ytmusic-logo.ytmusic-nav-bar a img,
+  ytmusic-logo.ytmusic-nav-bar a picture,
+  ytmusic-logo.ytmusic-nav-bar a svg {
+    display: none !important;
   }
 
   /* search */
