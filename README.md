@@ -28,7 +28,7 @@ MoonMonet YTM brings a purplish accent look to your music experience.
 2. Click [this link to install](https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/moonmonet.user.css).
 3. Confirm the installation in Stylus.
 
-### Desktop App (th-ch)
+### Desktop App ([Pear Desktop](https://github.com/pear-devs/pear-desktop/))
 
 You can inject the CSS directly into the settings or use a plugin manager to load the remote URL.
 
