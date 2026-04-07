@@ -1,6 +1,0 @@
-ytmusic-app[is-bauhaus-sidenav-enabled] #guide-wrapper.ytmusic-app,
-ytmusic-guide-renderer,
-#guide-wrapper {
-	background: var(--md-sys-color-surface-container-low) !important;
-	background-color: var(--md-sys-color-surface-container-low) !important;
-}
