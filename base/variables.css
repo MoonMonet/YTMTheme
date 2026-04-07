@@ -1,0 +1,66 @@
+:root {
+	/* colors */
+	--md-sys-color-background: #141218;
+	--md-sys-color-on-background: #e6e0e9;
+	--md-sys-color-surface: #1d1b20;
+	--md-sys-color-surface-variant: #49454f;
+	--md-sys-color-on-surface: #e6e0e9;
+	--md-sys-color-on-surface-variant: #cac4d0;
+	--md-sys-color-primary: #d0bcff;
+	--md-sys-color-on-primary: #381e72;
+	--md-sys-color-primary-container: #4f378b;
+	--md-sys-color-on-primary-container: #eaddff;
+	--md-sys-color-secondary: #ccc2dc;
+	--md-sys-color-on-secondary: #332d41;
+	--md-sys-color-secondary-container: #4a4458;
+	--md-sys-color-on-secondary-container: #e8def8;
+	--md-sys-color-tertiary: #efb8c8;
+	--md-sys-color-on-tertiary: #492532;
+	--md-sys-color-tertiary-container: #633b48;
+	--md-sys-color-on-tertiary-container: #ffd8e4;
+
+	/* surfaces */
+	--md-sys-color-surface-container-lowest: #0f0d13;
+	--md-sys-color-surface-container-low: #1c1b1f;
+	--md-sys-color-surface-container: #211f26;
+	--md-sys-color-surface-container-high: #2b2930;
+	--md-sys-color-surface-container-highest: #36343b;
+
+	/* ytm variables */
+	--ytmusic-color-black1: var(--md-sys-color-background) !important;
+	--ytmusic-color-black2: var(--md-sys-color-surface) !important;
+	--ytmusic-color-black3: var(--md-sys-color-surface-variant) !important;
+	--ytmusic-color-black4: var(--md-sys-color-primary-container) !important;
+	--ytmusic-color-black-pure: var(--md-sys-color-background) !important;
+	--ytmusic-color-white1: var(--md-sys-color-on-background) !important;
+	--ytmusic-color-white1-alpha-70: rgba(230, 225, 229, 0.7) !important;
+	--ytmusic-color-white1-alpha-30: rgba(230, 225, 229, 0.3) !important;
+	--ytmusic-color-white1-alpha-10: rgba(230, 225, 229, 0.1) !important;
+	--ytmusic-text-primary: var(--md-sys-color-on-background) !important;
+	--ytmusic-text-secondary: var(--md-sys-color-on-surface-variant) !important;
+	--yt-spec-base-background: var(--md-sys-color-background) !important;
+	--yt-spec-raised-background: var(--md-sys-color-surface-container) !important;
+	--yt-spec-menu-background: var(--md-sys-color-surface-container-high) !important;
+	--ytmusic-nav-bar: var(--md-sys-color-surface-container) !important;
+	--ytmusic-player-bar-background: transparent !important;
+	--yt-spec-brand-button-background: var(--md-sys-color-primary) !important;
+	--yt-spec-brand-link-text: var(--md-sys-color-primary) !important;
+	--yt-spec-call-to-action: var(--md-sys-color-primary) !important;
+	--yt-spec-brand-icon-active: var(--md-sys-color-primary) !important;
+	--yt-spec-icon-active-other: var(--md-sys-color-primary) !important;
+	--yt-spec-text-primary: var(--md-sys-color-on-background) !important;
+	--yt-spec-text-secondary: var(--md-sys-color-on-surface-variant) !important;
+	--ytmusic-setting-item-toggle-active: var(--md-sys-color-primary) !important;
+	--ytmusic-search-background: var(--md-sys-color-surface-container-highest) !important;
+	--yt-spec-badge-chip-background: var(--md-sys-color-surface-container-high) !important;
+	--yt-spec-badge-chip-background-checked: var(--md-sys-color-secondary-container) !important;
+
+	/* paper settings */
+	--paper-slider-active-color: var(--md-sys-color-primary) !important;
+	--paper-slider-secondary-color: var(--md-sys-color-surface-variant) !important;
+	--paper-slider-knob-color: var(--md-sys-color-primary) !important;
+	--paper-slider-knob-start-color: var(--md-sys-color-primary) !important;
+	--paper-slider-knob-start-border-color: var(--md-sys-color-primary) !important;
+	scrollbar-width: thin !important;
+	scrollbar-color: var(--md-sys-color-surface-variant) transparent !important;
+}

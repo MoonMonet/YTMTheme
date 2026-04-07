@@ -1,0 +1,36 @@
+/* main player bar */
+#player-bar-background {
+	background: transparent !important;
+}
+ytmusic-player-bar {
+	background: color-mix(in srgb, var(--md-sys-color-surface-container-high) 60%, transparent) !important;
+	backdrop-filter: blur(40px) saturate(2) !important;
+	-webkit-backdrop-filter: blur(40px) saturate(2) !important;
+	border-radius: 28px !important;
+	margin: 0 16px 20px 16px !important;
+	width: calc(100% - 32px) !important;
+	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.4) !important;
+	bottom: 0 !important;
+	padding: 8px 0 !important;
+	transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1), background-color 0.3s ease !important;
+	z-index: 100 !important;
+}
+
+/* album thumbnail */
+.thumbnail-image-wrapper.ytmusic-player-bar img {
+	border-radius: 50% !important;
+	object-fit: cover !important;
+}
+.thumbnail-image-wrapper.ytmusic-player-bar img[src*="i.ytimg.com"] {
+	border-radius: 16px !important;
+}
+
+/* progress slider */
+#progress-bar.ytmusic-player-bar {
+	margin: 0 24px !important;
+	width: calc(100% - 48px) !important;
+	--paper-slider-active-color: var(--md-sys-color-primary) !important;
+	--paper-slider-knob-color: var(--md-sys-color-primary) !important;
+	--paper-slider-knob-start-color: var(--md-sys-color-primary) !important;
+	--paper-slider-knob-start-border-color: var(--md-sys-color-primary) !important;
+}

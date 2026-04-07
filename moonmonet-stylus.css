@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           MoonMonet YTM (Stylus)
+@namespace      moonmonet-ytm
+@version        0.1.0
+@description    Material You style theme for YouTube Music
+@author         noxygalaxy
+@homepageURL    https://github.com/MoonMonet/YTMTheme
+@supportURL     https://github.com/MoonMonet/YTMTheme/issues
+@updateURL      https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/moonmonet-stylus.css
+@license        GPL-3.0
+==/UserStyle== */
+
+@-moz-document domain("music.youtube.com") {
+	@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/manager.css");
+}

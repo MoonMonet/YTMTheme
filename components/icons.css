@@ -1,0 +1,15 @@
+yt-icon, tp-yt-iron-icon {
+	fill: var(--md-sys-color-on-surface) !important;
+}
+.left-controls.ytmusic-player-bar paper-icon-button.ytmusic-player-bar,
+.right-controls-buttons.ytmusic-player-bar paper-icon-button.ytmusic-player-bar {
+	--iron-icon-fill-color: var(--md-sys-color-on-surface) !important;
+	--paper-icon-button_-_color: var(--md-sys-color-on-surface) !important;
+}
+.left-controls.ytmusic-player-bar paper-icon-button.ytmusic-player-bar:hover,
+.right-controls-buttons.ytmusic-player-bar paper-icon-button.ytmusic-player-bar:hover {
+	--iron-icon-fill-color: var(--md-sys-color-primary) !important;
+	--paper-icon-button_-_color: var(--md-sys-color-primary) !important;
+	background-color: var(--md-sys-color-surface-variant) !important;
+	border-radius: 50% !important;
+}

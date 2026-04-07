@@ -1,0 +1,12 @@
+ytmusic-pivot-bar-item-renderer:hover,
+ytmusic-pivot-bar-item-renderer[selected] {
+	color: var(--md-sys-color-on-secondary-container) !important;
+	background-color: var(--md-sys-color-secondary-container) !important;
+	border-radius: 24px !important;
+}
+ytmusic-pivot-bar-item-renderer {
+	color: var(--md-sys-color-on-surface-variant) !important;
+	margin: 0 4px !important;
+	padding: 8px 16px !important;
+	transition: all 0.2s ease !important;
+}

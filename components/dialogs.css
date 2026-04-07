@@ -1,0 +1,11 @@
+paper-dialog, tp-yt-paper-dialog, ytmusic-dialog {
+	background-color: var(--md-sys-color-surface-container-high) !important;
+	border-radius: 28px !important;
+	color: var(--md-sys-color-on-surface) !important;
+}
+ytmusic-menu-popup-renderer, tp-yt-paper-listbox {
+	background-color: var(--md-sys-color-surface-container-high) !important;
+	border-radius: 16px !important;
+	box-shadow: 0 8px 24px rgba(0,0,0,0.5) !important;
+	border: 1px solid var(--md-sys-color-surface-variant) !important;
+}

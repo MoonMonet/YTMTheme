@@ -1,0 +1,26 @@
+/* base & global */
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/base/variables.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/base/global.css");
+
+/* components */
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/sidebar.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/player-page.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/player-bar.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/nav-bar.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/search.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/play-button.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/buttons.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/icons.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/dialogs.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/pivot-bar.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/av-toggle.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/tabs.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/chips.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/components/item-rounding.css");
+
+/* pages */
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/pages/home.css");
+
+/* ui & typography */
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/ui/typography.css");
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/ui/scrollbar.css");

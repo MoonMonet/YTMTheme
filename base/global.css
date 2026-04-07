@@ -1,0 +1,13 @@
+html:not(.style-scope),
+body {
+	scrollbar-gutter: stable !important;
+}
+
+html:not(.style-scope),
+body,
+ytmusic-app,
+ytmusic-app-layout,
+ytmusic-player-page {
+	background: var(--md-sys-color-background) !important;
+	background-color: var(--md-sys-color-background) !important;
+}

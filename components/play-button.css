@@ -1,0 +1,12 @@
+ytmusic-play-button-renderer {
+	--ytmusic-play-button-icon-color: var(--md-sys-color-on-primary-container) !important;
+	--ytmusic-play-button-background-color: var(--md-sys-color-primary-container) !important;
+}
+.content-wrapper.ytmusic-play-button-renderer {
+	background: var(--md-sys-color-primary-container) !important;
+	border-radius: 50% !important;
+}
+ytmusic-play-button-renderer:hover .content-wrapper.ytmusic-play-button-renderer {
+	background: var(--md-sys-color-primary) !important;
+	--ytmusic-play-button-icon-color: var(--md-sys-color-on-primary) !important;
+}

@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           MoonMonet YTM
+@namespace      moonmonet-ytm
+@version        0.1.0
+@description    Material You style theme for YouTube Music (Could be set up by custom extension)
+@author         noxygalaxy
+@homepageURL    https://github.com/MoonMonet/YTMTheme
+@supportURL     https://github.com/MoonMonet/YTMTheme/issues
+@updateURL      https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/moonmonet.css
+@license        GPL-3.0
+==/UserStyle== */
+
+@import url("https://raw.githubusercontent.com/MoonMonet/YTMTheme/main/manager.css");

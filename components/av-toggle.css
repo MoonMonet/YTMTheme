@@ -1,0 +1,55 @@
+ytmusic-av-toggle .av-toggle.ytmusic-av-toggle {
+	background-color: var(--md-sys-color-surface-container-high) !important;
+	border-radius: 999px !important;
+	padding: 4px !important;
+	border: 1px solid var(--md-sys-color-surface-variant) !important;
+	position: relative !important;
+	display: flex !important;
+	gap: 8px !important;
+	isolation: isolate !important;
+}
+
+/* sliding pill */
+ytmusic-av-toggle .av-toggle.ytmusic-av-toggle::before {
+	content: "" !important;
+	position: absolute !important;
+	top: 4px !important;
+	bottom: 4px !important;
+	left: 4px !important;
+	width: calc(50% - 8px) !important;
+	background-color: var(--md-sys-color-secondary-container) !important;
+	border-radius: 999px !important;
+	transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) !important;
+	z-index: 1 !important;
+}
+
+/* video selection shift */
+ytmusic-av-toggle[is-video-playback-mode-selected="true"] .av-toggle.ytmusic-av-toggle::before {
+	transform: translateX(calc(100% + 8px)) !important;
+}
+
+ytmusic-av-toggle button.ytmusic-av-toggle {
+	flex: 1 !important;
+	margin: 0 !important;
+	border-radius: 999px !important;
+	color: var(--md-sys-color-on-surface-variant) !important;
+	font-weight: 500 !important;
+	padding: 6px 20px !important;
+	transition: color 0.3s cubic-bezier(0.2, 0, 0, 1), background-color 0.3s ease !important;
+	background-color: transparent !important;
+	position: relative !important;
+	z-index: 2 !important;
+	text-align: center !important;
+}
+
+/* active state text */
+ytmusic-av-toggle button[aria-pressed="true"].ytmusic-av-toggle {
+	background-color: transparent !important;
+	color: var(--md-sys-color-on-secondary-container) !important;
+}
+
+/* hover state text */
+ytmusic-av-toggle button.ytmusic-av-toggle:hover:not([aria-pressed="true"]) {
+	background-color: rgba(255, 255, 255, 0.05) !important;
+	color: var(--md-sys-color-on-surface) !important;
+}
