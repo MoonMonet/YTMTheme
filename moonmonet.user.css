@@ -12,6 +12,7 @@
 
 @-moz-document domain("music.youtube.com") {
   :root {
+    --moonmonet-version: "0.1.0";
     /* colors */
     --md-sys-color-background: #141218;
     --md-sys-color-on-background: #e6e0e9;
